@@ -3,6 +3,12 @@
 }
 body {
  background-color: gainsboro ;
+ font-family: 'Alkalami', serif;
+font-family: 'Fredoka One', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 }
 .topbar{
@@ -11,3 +17,91 @@ body {
   padding: 10px 15px;
   box-shadow: 0 0 10px rgb(111, 102, 102);
 }
+.topbar.topbar-dark{
+  background-color: rgb(61, 60, 60);
+  color: aliceblue;
+}
+.topbar.topbar-beline{
+  background-color: yellow;
+  color: black;
+}
+.topbar.topbar-o{
+  color: rgba(205, 62, 153, 0.844);
+  background-color: black;
+}
+.topbar.topbar-mega{
+  background-color: greenyellow;
+  color: rgb(111, 33, 145);
+}
+.nav{
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav .nav-item .nav-link{
+  display: block;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: rgb(244, 89, 11);
+}
+.nav .nav-item .nav-link{
+  color: brown;
+}
+.nav .nav-item.active{
+  background-color: rgb(171, 171, 200);
+  color: rgb(244, 89, 11) ;
+}
+.nav.nav-dark .nav-item .nav-link{
+  color: white;
+}
+
+.nav.nav-dark .nav-item:active .nav-link{
+  background-color: whitesmoke;
+}
+.nav.nav-dark .nav-item .nav-link:hover{
+  background-color: white;
+  color: rgb(244, 89, 11);
+  border-radius: 0%;
+}
+.nav.nav-beline .nav-item .nav-link{
+  color: rgb(36, 3, 3);
+}
+
+.nav.nav-beline .nav-item:active .nav-link{
+  background-color: whitesmoke;
+}
+.nav.nav-beline .nav-item .nav-link:hover{
+  background-color: rgb(46, 6, 6);
+  color: rgb(245, 238, 234);
+  border-radius: 0%;
+}
+
+.nav.nav-o .nav-item .nav-link{
+  color: white;
+}
+
+.nav.nav-o .nav-item:active .nav-link{
+  background-color: whitesmoke;
+}
+.nav.nav-o .nav-item .nav-link:hover{
+  background-color: rgba(208, 194, 194, 0.552);
+  color: rgb(34, 30, 28);
+  border-radius: 0%;
+}
+.nav.nav-mega .nav-item .nav-link{
+  color: rgb(37, 5, 5);
+  transition: 0.5s;
+}
+
+.nav.nav-mega .nav-item:active .nav-link{
+  background-color: whitesmoke;
+}
+.nav.nav-mega .nav-item .nav-link:hover{
+  background-color: rgba(132, 33, 212, 0.552);
+  color: rgb(34, 30, 28);
+  border-radius: 0%;
+}
+
